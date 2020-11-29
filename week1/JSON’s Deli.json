@@ -1,0 +1,62 @@
+{
+    "appetizers": [
+        {
+            "itemName": "Caesar Salad",
+            "ingredients": ["Romaine Lettuce", "Caesar Dressing", "Croutons"],
+            "description": "A crisp green salad with fresh crunchy croutons and rich, creamy caesar dressing."
+        },
+        {
+            "itemName": "Chicken Quesadilla",
+            "ingredients": ["Tortilla Wrap", "Cheddar Cheese", "Chicken"],
+            "description": "Shredded chicken sprinkled with cheddar cheese on a tortilla wrap grilled to perfection."
+        }
+    ],
+    "coldSandwiches": [
+        {
+            "itemName": "Ham Sandwich",
+            "ingredients": ["Wheat Bread", "Chipped Ham", "Lettuce", "Mayonnaise"],
+            "description": "A hearty ham sandwich with deli chipped ham, crispy lettuce and mayo on freshly baked wheat bread."
+        },
+        {
+            "itemName": "Turkey Club",
+            "ingredients": ["White Bread", "Sliced Turkey", "Lettuce", "Mayonnaise", "Bacon"],
+            "description": "A triple decker turkey club, stacked with sliced turkey, lettuce, mayo and bacon on white bread."
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "itemName": "Crispy Chicken Sandwich",
+            "ingredients": ["Breaded Chicken", "Onion", "Lettuce", "Bun"],
+            "description": "Freshly fried chicken breast with onion and lettuce on a soft bun."
+        },
+        {
+            "itemName": "Meatball Sandwich",
+            "ingredients": ["Meatballs", "Mozzarella", "Marinara Sauce", "Baked Bread"],
+            "description": "Homemade meatballs topped with marinara sauce and sprinkled mozzarella on freshly baked bread"
+        }
+    ],
+    "desserts": [
+        {
+            "itemName": "Chocolate Cake",
+            "ingredients": ["Cocoa", "Flour", "Sugar", "Baking Powder", "Vanilla Extract"],
+            "description": "A rich and decadent chocolate cake with creamy chocolate frosting."
+        },
+        {
+            "itemName": "Hot Fudge Sundae",
+            "ingredients": ["Vanilla Ice Cream", "Hot Fudge", "Peanuts"],
+            "description": "Creamy vanilla ice cream topped with hot fudge and crushed peanuts."
+        }
+    ],
+    "drinks": [
+        {
+            "itemName": "Strawberry Lemonade",
+            "ingredients": ["Strawberries", "Lemons", "Sugar"],
+            "description": "A sweet and sour strawberry lemonade with sliced strawberries, freshly squeezed lemons and liquid sugar."
+        },
+        {
+            "itemName": "Blueberry Iced Tea",
+            "ingredients": ["Blueberries", "Tea Leaves", "Sugar"],
+            "description": "Refreshing blueberries crushed in filtered tea topped with granulated sugar."
+        }
+    ]
+}
