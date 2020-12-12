@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-family: 'Barriecito', cursive;
+    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Viga', sans-serif;
+}
+
+html {
+    background-color: black;
+}
+
+nav {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > a {
+    color: #cbc963;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #202202;
+    padding: 10px;
+}
+
+header {
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px black;
+    font-size: 28px;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/fE4aze4SafSmW7hYCC2Xtlvbm-0=/0x0:3200x1800/1200x675/filters:focal(1344x644:1856x1156)/cdn.vox-cdn.com/uploads/chorus_image/image/65354164/BB_.0.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+div {
+    color: #6d7752;
+}
