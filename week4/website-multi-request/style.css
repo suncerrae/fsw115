@@ -1,14 +1,15 @@
 body {
     font-family: Georgia;
-    background-color: black;
-}
+    background-color: rgb(10, 10, 5);
+    }
+    
 #container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20%;
-    border: solid black 1px transparent;
+    border: solid rgb(211, 80, 80) 1px transparent;
     border-radius: 10px;
     margin-left: 20%;
     margin-right: 20%;
@@ -16,14 +17,17 @@ body {
     background-color: #e03501;
 }
 h1 {
+    background-color: black;
+    color: rgb(206, 214, 216);
     font-size: 100px;
     text-decoration: center;
+    
 }
 button {
     padding: 20px;
     margin: 10px;
     font-size: 30px;
-    background-color: #242d3e;
+    background-color: #0b4bc0;
     color: white;
     outline: none;
     border: transparent solid;
