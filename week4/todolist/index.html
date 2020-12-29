@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Todo List</title>
 </head>
 <body>
     <div class="enterBox">
-        <h1>TO-DO LIST</h1>
-        <form>
-            <input type="text" placeholder="Enter New Task...">
-            <button type="submit">ADD</button>
-        </form>
-        <div class="alltasks">
-            <ul>
-                <li class="list"></li>
-                <li class="list"></li>
-                <li class="list"></li>
-                <li class="list"></li>
-            </ul>
+        <div class="enterBox">
+            <h1>TO-DO LIST</h1>
+            <form id="forms">
+                <input class="addtodo" type="text" name="title" placeholder="Enter New Task...">
+                <br><br>
+                <input class="addtodo" type="text" name="description"
+                placeholder="Products needed..." >
+                <br><br>
+                <input class="addtodo" type="number" name="price" placeholder="Price of products...">
+                <br><br>
+                <button type="submit" id="submit">ADD</button>
+            </form>
+            <div class="alltasks">
+                <ul></ul>
+            </div>
         </div>
-    </div>
     <script src= "https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
     <script src="index.js"></script>
 </body>
