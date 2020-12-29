@@ -1,0 +1,68 @@
+html {
+    height: 300%;
+    font-family: Lucida;
+    color: rgb(5, 0, 0);
+}
+
+.enterbox {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(14, 1, 1);
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    font-size: 1.5em;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.addtodo {
+  box-shadow: 5px 5px 5px rgb(7, 0, 0);
+}
+
+button {
+    font-size: 1.5em;
+    color: rgb(212, 20, 20);
+    background-color: white; 
+    border: none;
+    width: 100px;
+    height: 42px;
+    box-shadow: 5px 5px 5px rgb(20, 6, 6);
+}
+
+.alltasks {
+  background-color: whitesmoke;
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+ul {
+  list-style-type: square;
+  font-size: 20px;
+}
+
+li {
+  border-bottom: 2px solid #53BDFF;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  font-size: 1.3em;
+}
