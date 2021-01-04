@@ -1,0 +1,85 @@
+html {
+    text-align: center;
+    font-family: 'Succulent', cursive;
+    background-color: rgb(9, 129, 228);
+}
+
+header {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-shadow: 3px 3px rgb(14, 172, 151);
+}
+
+.wink {
+    width: 35px;
+}
+
+.earth {
+    width: 35px;
+}
+
+#info {
+    margin-top: 50px;
+}
+
+.theBird {
+    width: 50px;
+}
+
+@media only screen and (min-width: 600px) { 
+
+html {
+    font-size: 23px;
+}
+
+header {
+    font-size: 40px;
+}
+
+.wink {
+    width: 500px;
+}
+
+.earth {
+    width: 300px;
+}
+
+.dance {
+    width: 350px;
+}
+
+#info {
+    margin-top: 100px;
+}
+
+.theBird {
+    width: 350px;
+}
+}
+
+@media only screen and (min-width: 1024px) { 
+
+html {
+    font-size: 30px;
+}
+    
+header {
+    font-size: 45px;
+}
+    
+.wink {
+    width: 450px;
+}
+    
+.earth {
+    width: 850px;
+}
+    
+.dance {
+    width: 500px;
+}
+    
+.theBird {
+    width: 450px;
+}
+}
